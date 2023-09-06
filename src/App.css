@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+.full-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.picture {
+  height: 230px;
+  width: 200px;
+  border-radius: 20%;
+  border: 10px solid black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  transform: translateY(-2px);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.home-content {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 7%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.home-h1 {
+  font-size: 85px;
+font-family: 'Dosis', sans-serif;
+  font-weight: 900;
+}
+
+.home-p {
+  font-size: 30px;
+font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+}
+
+#section2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-me-h1 {
+font-family: 'Dosis', sans-serif;
+  font-weight: 900;
+
+}
+
+.about-section-title {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+
+}
+
+.about-section-subtitle {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid black;
+font-family: 'Dosis', sans-serif;  
+font-weight: 500;
+}
+
+.skills-part,
+.about-part {
+  flex: 1;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  background-color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+
+.about-part {
+  flex: 1;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.about-me-h1 {
+  font-size: 30px;
+}
+
+.about-me-h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.about-me-p {
+  font-size: 10px;
+}
+
+.about-me-subtitle-p {
+  font-size: 7px;
+  text-align: justify;
+}
+
+.button-container-about {
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 5px;
+}
+
+.contact-me-button {
+  font-size: 5px;
+  border: 0.5px solid black;
+  border-radius: 2px;
+  transition: transform 0.3s ease;
+  margin-top: 5px;
+}
+
+.contact-me-button:hover {
+  transform: translateY(-1px);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-box {
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  font-size: 7px;
+}
+
+
+@media (max-width: 910px) {
+
+  .about-section-subtitle {
+    flex-direction: column;
+    top: 120px;
+  }
+
+  .about-part {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .skills-part {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.test-h1 {
+font-family: 'Dosis', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 85px;
+}
+
+.test-h1-skills {
+font-family: 'Dosis', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 85px;
+}
+
+.test-h1-contact {
+font-family: 'Dosis', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 85px;
+}
+
+.project-file-container {
+  max-height: 300px;
+  /* Adjust the value as needed */
+  overflow-y: auto;
+}
+
+.about-section {
+  margin: 20px 0;
+  /* Adjust the margins as needed */
+  padding: 20px 0;
+  /* Adjust the padding as needed */
+}
+
+.page-container {
+  padding-top: 20px;
+  /* Adjust the padding as needed */
+}
+
+
+/* PROJECTS CSS*/
+
+.project-h1-div {
+  padding-top: 40px;
+}
+
+.h1-content {
+font-family: 'Dosis', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 85px;
+}
+
+.container {
+  width: 150px;
+  height: 150px;
+  display: grid;
+  overflow: hidden;
+  margin: 0;
+  list-style: none;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10%;
+}
+
+.item {
+  background: white;
+  border-radius: 15%;
+}
+
+#projects-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72vh;
+}
+
+.content-item-one,
+.content-item-two,
+.content-item-three,
+.content-item-four {
+  text-align: center;
+}
+
+.item-h2 {
+  font-size: 7px;
+  padding-top: 10px;
+}
+
+.item-p {
+  font-size: 3px;
+  margin: 4px;
+  text-align: justify;
+  margin-bottom: -7px;
+  margin-top: -5px;
+}
+
+.button-tictactoe-go,
+.button-joke-go,
+.button-weather-go,
+.button-paint-go {
+  height: 10px;
+  font-size: 5px;
+  border: 0.5px;
+}
+
+.link-button {
+  display: inline-block;
+  padding: 1px 2px;
+  background-color: #007bff;
+  /* Replace with your desired button color */
+  color: #ffffff;
+  /* Replace with your desired text color */
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 2px;
+}
+
+.button-go-tictactoe,
+.button-go-joke,
+.button-go-paint,
+.button-go-weather {
+  background: linear-gradient(to right, darkblue, darkorchid);
+  border-color: none;
+  border-radius: 10px;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2px;
+  color: white;
+  cursor: pointer;
+  padding: 2px 6px;
+  text-decoration: none;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-go-tictactoe:hover {
+  transform: scale(1.1);
+
+}
+
+.button-go-tictactoe:active {
+  transform: scale(0.9);
+}
+
+.button-go-joke:hover {
+  transform: scale(1.1);
+
+}
+
+.button-go-joke:active {
+  transform: scale(0.9);
+}
+
+.button-go-paint:hover {
+  transform: scale(1.1);
+
+}
+
+.button-go-paint:active {
+  transform: scale(0.9);
+}
+
+.button-go-weather:hover {
+  transform: scale(1.1);
+
+}
+
+.button-go-weather:active {
+  transform: scale(0.9);
+}
+
+
+
+@media (max-width: 768px) {
+  .section {
+    margin-bottom: 40px;
+    /* Adjust this value to control the separation */
+  }
+
+
+  /* PROJECTS CSS */
+
+     .container {
+       width: 20%;
+       /* Use full width */
+       height: auto;
+       /* Height will be determined by content */
+       grid-template-columns: 1fr;
+       /* Single column layout */
+       grid-template-rows: auto;
+       /* Auto rows */
+       gap: 3px;
+       padding: 3px;
+       border-radius: 10px;
+       margin-top: 400px;
+       margin-bottom: 200px;
+     }
+  
+     .item {
+       width: 100%;
+       /* Use full width */
+       height: 50px;
+       /* Height will be determined by content */
+       border-radius: 10px;
+       margin: 1px;
+     }
+}
